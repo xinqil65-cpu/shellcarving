@@ -1,0 +1,15 @@
+# 防止 Git 把中文字符转义为 \xxx
+*.html text eol=lf working-tree-encoding=utf-8
+*.css  text eol=lf working-tree-encoding=utf-8
+*.js   text eol=lf working-tree-encoding=utf-8
+*.md   text eol=lf working-tree-encoding=utf-8
+*.json text eol=lf working-tree-encoding=utf-8
+
+*.jpg  binary
+*.jpeg binary
+*.png  binary
+*.mp4  binary
+*.gif  binary
+*.pdf  binary
+*.docx binary
+*.doc  binary

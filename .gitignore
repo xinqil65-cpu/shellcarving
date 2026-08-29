@@ -1,0 +1,38 @@
+# Windows 系统
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# VS Code
+.vscode/
+*.swp
+*.swo
+
+# 日志 / 临时
+*.log
+tmp/
+temp/
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 单文件整合版（303MB，超过 GitHub 100MB 单文件限制，不进仓库，仅本地分发）
+贝雕展示.html
+
+# AI 图片下载缓存（生成单文件版时的临时产物）
+网页展示/assets/_ai_cache/
+
+# 实地探访原始大视频（超过 GitHub 100MB 单文件限制，仅本地保留；网站用网页展示/assets/video 里的压缩版）
+实地探访/VID20260122160658.mp4
+实地探访/VID20260122161824.mp4
+实地探访/VID20260122162033.mp4
+实地探访/VID20260122162618.mp4
+
+# 推送临时日志
+push_result.txt
+push_log.txt
+cred_log.txt
+
+# 本地临时脚本（copy_photos / copy_extra / copy_new 等临时脚本，临时 Python 文件已用完就删）
